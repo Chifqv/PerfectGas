@@ -38,6 +38,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormGas";
             this.Text = "Идеальный газ";
+            this.Load += new System.EventHandler(this.FormGas_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FormGas_MouseDown);
             this.ResumeLayout(false);
 
